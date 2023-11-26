@@ -21,7 +21,7 @@ app.use(cookieParser());
 // cors => cross origin resource sharing
 app.use(
   cors({
-    origin: ['lms-fullstack-production.up.railway.app'],
+    origin: ['https://lms-fullstack-production.up.railway.app'],
     credentials: true,
   }),
 );
